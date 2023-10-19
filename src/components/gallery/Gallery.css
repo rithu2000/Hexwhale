@@ -1,0 +1,48 @@
+.heading{
+    color: black;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.subHeading{
+    color: darkgray;
+    font-size: small;
+}
+
+.productHeading{
+    color: gray;
+    font-size: small;
+}
+
+.discountPrice{
+    font-size: small;
+}
+
+.originalPrice{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.loadButton{
+    align-items: center;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+.mainBox{
+max-width: 80%;
+}
+
+.mainHeading{
+    align-items: center;
+}
+
+.horizontalLine{
+    align-self: flex-start;
+
+}
+
+.mainBox .row .col-lg-3.col-md-4.col-sm-6.col-12 img{
+    max-width: 100%;
+    height: auto;
+}
