@@ -1,12 +1,12 @@
-.subBannerContainer{
+.subBannerContainer {
     max-width: 100%;
 }
 
-.subBannerRow{
+.subBannerRow {
     justify-content: center;
 }
 
-.subBannerLeft{
+.subBannerLeft {
     background-image: url(../../assets/image-4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
     height: 50vh;
 }
 
-.subBannerRight{
+.subBannerRight {
     background-image: url(../../assets/image-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,31 +24,34 @@
     height: 50vh;
 }
 
-.bannerPrice{
+.bannerPrice {
     color: burlywood;
 }
 
-.subCategory{
-color: burlywood;
-font-size: small;
+.subCategory {
+    color: burlywood;
+    font-size: small;
 }
 
-.subBannerHeading{
-font-size: medium;
+.subBannerHeading {
+    font-size: medium;
 }
 
-.subContent{
-font-size: small;
-color: darkgray
+.subContent {
+    font-size: small;
+    color: darkgray
 }
-.subBannerRight,.subBannerLeft{
+
+.subBannerRight,
+.subBannerLeft {
     max-width: 49%;
 }
-.sub-banner-row{
-    justify-content: space-between;
 
+.sub-banner-row {
+    justify-content: space-between;
 }
-.subBannerContent{
+
+.subBannerContent {
     align-items: center;
     padding: 5%;
     max-width: 65%;

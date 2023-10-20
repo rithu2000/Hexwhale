@@ -10,7 +10,6 @@ import CeilLight from '../../assets/image-26.jpg'
 import Bag from '../../assets/image-27.jpg'
 
 const Gallery = () => {
-
   return (
     <div className='mainBox container'>
       <div className="row text-center">

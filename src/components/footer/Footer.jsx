@@ -7,7 +7,6 @@ import { faBagShopping, faGlobe } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
         <footer className='bg-dark'>
-
             <div className="container-fluid footerContainer">
                 <div className="footerRow row d-flex flex-row mt-5">
                     <div className="col-md-6">
@@ -67,12 +66,8 @@ const Footer = () => {
                         <p className='footerText'><FontAwesomeIcon className='faIcons' icon={faBagShopping} /></p>
                         <p className='footerText'><FontAwesomeIcon className='faIcons' icon={faBagShopping} /></p>
                         <p>
-                            
-                            
                         </p>
-
                     </div>
-
                 </div>
             </div>
         </footer>

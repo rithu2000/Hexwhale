@@ -7,42 +7,41 @@
     max-width: 100% !important;
     height: auto;
 }
+
 .bannerNameBox {
     padding: 0;
 }
-
 
 element.style {
     border-radius: 50%;
 }
 
-.carousel-indicators > [data-bs-target] {
+.carousel-indicators>[data-bs-target] {
     height: 10px !important;
     width: 10px !important;
-    /* border-radius: 50%; */
     clip-path: circle(20%);
-
 }
-
 
 .carousel-caption {
     position: absolute;
-    /* right: 15%; */
-    /* bottom: 1.25rem; */
     top: 40%;
     left: 15%;
-    /* padding-top: 1.25rem; */
-    /* padding-bottom: 1.25rem; */
     color: black;
     text-align: left;
 }
-.carousel-indicators{
+
+.carousel-indicators {
     bottom: 20%;
 }
 
-.carousel-indicators > [data-bs-target].active {
-    /* border: 1px solid gold; */
+.carousel-indicators>[data-bs-target].active {
     outline: 0.5px solid black;
-    /* border-radius: 50%;
-    bottom: 20%; */
+}
+
+.bannerHeading {
+    max-width: 22%;
+}
+
+.bannerSubHeading {
+    max-width: 30%;
 }

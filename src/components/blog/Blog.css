@@ -8,16 +8,16 @@
     font-size: small;
 }
 
-.blogName{
+.blogName {
     color: burlywood;
 }
 
-.blogContent{
+.blogContent {
     color: gray;
     font-size: small;
     width: 300px;
 }
 
-.blogContainer{
+.blogContainer {
     max-width: 80%;
 }

@@ -4,7 +4,6 @@ import HeroSectionLeft from '../../assets/image-6.jpg'
 import HeroSectionMiddle from '../../assets/image-7.jpg'
 import HeroSectionRight from '../../assets/image-8.jpg'
 
-
 const Hero = () => {
     return (
         <div className="container heroContainer">
@@ -26,7 +25,6 @@ const Hero = () => {
                     </div>
                     <div className="heroHeadingDiv">
                         <div className="heroHeadingInnerDiv">
-
                             <h2 className='heroHeading'>Chair kimi No Isu project</h2>
                             <a href="#discoverLink" className='discoverButton'>Discover Now</a>
                         </div>
@@ -38,7 +36,6 @@ const Hero = () => {
                     </div>
                     <div className="heroHeadingDiv">
                         <div className="heroHeadingInnerDiv">
-
                             <h2 className='heroHeading'>Sweeper and Dustpan by jan kochanski</h2>
                             <a href="#discoverLink" className='discoverButton'>Discover Now</a>
                         </div>

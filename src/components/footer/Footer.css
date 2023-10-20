@@ -1,33 +1,36 @@
-.footerContainer{
+.footerContainer {
     max-width: 100%;
 }
 
-.footerRow{
+.footerRow {
     max-width: 80%;
 }
 
-.footerText{
+.footerText {
     font-size: small;
     color: gray;
     text-decoration: none;
 }
 
-.footerHeading{
+.footerHeading {
     font-size: medium;
     font-weight: bold;
     color: white;
 }
 
-.companyName{
+.companyName {
     color: burlywood;
 }
-.footerContainer{
+
+.footerContainer {
     padding: 1rem;
 }
-.footerRow{
+
+.footerRow {
     margin: auto;
 }
-.horizontalLine-2{
+
+.horizontalLine-2 {
     opacity: .5;
     border-bottom: .5px solid gray !important;
 }

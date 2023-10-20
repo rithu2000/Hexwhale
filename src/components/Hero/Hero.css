@@ -1,6 +1,4 @@
-
-
-.heroRow{
+.heroRow {
     justify-content: space-evenly;
     width: 80%;
     transform: translateY(-50%);
@@ -8,19 +6,18 @@
     background-color: white;
 }
 
-
-.heroHeading{
+.heroHeading {
     font-size: small;
     font-weight: bold;
 }
 
-.discoverButton{
+.discoverButton {
     font-size: small;
     text-decoration: none;
     color: black;
 }
 
-.heroHeadingDiv{
+.heroHeadingDiv {
     width: 100%;
     height: 100%;
     grid-area: inner-div;
@@ -28,16 +25,18 @@
     align-items: center;
 }
 
-.heroImageDiv{
+.heroImageDiv {
     width: 100%;
     height: 100%;
     grid-area: inner-div;
 }
-.heroImageDiv img{
+
+.heroImageDiv img {
     max-width: 100%;
     height: auto;
 }
-.heroSection{
+
+.heroSection {
     display: grid;
     grid-template-areas: "inner-div";
     padding-block: 1.2rem;
@@ -48,29 +47,23 @@
     padding: 1rem;
 }
 
-/* .container.row.gap-2.heroRow{
-    transform: translateY(-50%);
-} */
-
 @media (max-width: 767px) {
-
-    .heroRow{
+    .heroRow {
         transform: translateY(-5%);
         max-width: 55%;
     }
+
     .heroHeadingInnerDiv {
         max-width: 50%;
         padding: 4%;
         font-size: 9px;
     }
-    .heroHeadingInnerDiv a{
+
+    .heroHeadingInnerDiv a {
         font-size: 8px;
     }
-    .heroHeading{
+
+    .heroHeading {
         font-size: 9px;
-
     }
-
-   
-  }
-  
+}
