@@ -12,3 +12,8 @@
     max-width: 100%;
     height: auto;
 }
+
+.blogContainer .row .col-lg-4.col-md-4.col-sm-6.col-12 img{
+ max-width: 100%;
+ height: auto;
+}

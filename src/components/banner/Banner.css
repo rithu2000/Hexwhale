@@ -1,8 +1,48 @@
-.subcolumn{
+.subcolumn {
     background-color: aqua;
     height: 200px;
 }
 
-.maincolumBanner{
-    
+.bannerNameBox .carousel-item img {
+    max-width: 100% !important;
+    height: auto;
+}
+.bannerNameBox {
+    padding: 0;
+}
+
+
+element.style {
+    border-radius: 50%;
+}
+
+.carousel-indicators > [data-bs-target] {
+    height: 10px !important;
+    width: 10px !important;
+    /* border-radius: 50%; */
+    clip-path: circle(20%);
+
+}
+
+
+.carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    /* bottom: 1.25rem; */
+    top: 40%;
+    left: 15%;
+    /* padding-top: 1.25rem; */
+    /* padding-bottom: 1.25rem; */
+    color: black;
+    text-align: left;
+}
+.carousel-indicators{
+    bottom: 20%;
+}
+
+.carousel-indicators > [data-bs-target].active {
+    /* border: 1px solid gold; */
+    outline: 0.5px solid black;
+    /* border-radius: 50%;
+    bottom: 20%; */
 }

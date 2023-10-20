@@ -3,3 +3,7 @@
     font-size: x-small;
     border-color: black;
 }
+
+.discountContainer{
+    max-width: 50%;
+}

@@ -1,48 +1,48 @@
-.heading{
+.heading {
     color: black;
     font-size: xx-large;
     font-weight: 400;
 }
 
-.subHeading{
+.subHeading {
     color: darkgray;
     font-size: small;
 }
 
-.productHeading{
+.productHeading {
     color: gray;
     font-size: small;
 }
 
-.discountPrice{
+.discountPrice {
     font-size: small;
 }
 
-.originalPrice{
+.originalPrice {
     color: gray;
     text-decoration: line-through;
 }
 
-.loadButton{
+.loadButton {
     align-items: center;
     font-weight: bold;
     font-size: x-small;
 }
 
-.mainBox{
-max-width: 80%;
+.mainBox {
+    max-width: 80%;
 }
 
-.mainHeading{
+.mainHeading {
     align-items: center;
 }
 
-.horizontalLine{
+.horizontalLine {
     align-self: flex-start;
 
 }
 
-.mainBox .row .col-lg-3.col-md-4.col-sm-6.col-12 img{
+.mainBox .row .col-lg-3.col-md-4.col-sm-6.col-12 img {
     max-width: 100%;
     height: auto;
 }

@@ -19,22 +19,22 @@ const Blog = () => {
         <h4 className='subHeading mt-2'>mirum est notare quam littera gothica quam nook panthamas paum charm!</h4>
       </div>
             <div className="row mt-5">
-                <div className="col-md-4">
-                    <img src={LaptopDesk} alt="" width={350} height={220} />
+                <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src={LaptopDesk} alt=""/>
                     <h2 className='blogHeading mt-3'>Anteposuerit litterarum formas.</h2>
                     <h4 className='blogSubHeading'>By <span className='blogName'>sahnewas sakil</span> / September 14, 2017</h4>
                     <p className='blogContent mt-2'>mirum est notare quam littera gothica quam nook panthamas paum charm!</p>
                     <button className='loadButton btn border rounded-0 p-3 px-4 mx-auto mt-3'>READ MORE</button>
                 </div>
-                <div className="col-md-4">
-                    <img src={WoodenChair} alt="" width={350} height={220} />
+                <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src={WoodenChair} alt=""/>
                     <h2 className='blogHeading mt-3'>Anteposuerit litterarum formas.</h2>
                     <h4 className='blogSubHeading'>By <span className='blogName'>sahnewas sakil</span> / September 14, 2017</h4>
                     <p className='blogContent mt-2'>mirum est notare quam littera gothica quam nook panthamas paum charm!</p>
                     <button className='loadButton btn border rounded-0 p-3 px-4 mx-auto mt-3'>READ MORE</button>
                 </div>
-                <div className="col-md-4">
-                    <img src={ReadingTable} alt="" width={350} height={220} />
+                <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src={ReadingTable} alt=""/>
                     <h2 className='blogHeading mt-3'>Anteposuerit litterarum formas.</h2>
                     <h4 className='blogSubHeading'>By <span className='blogName'>sahnewas sakil</span> / September 14, 2017</h4>
                     <p className='blogContent mt-2'>mirum est notare quam littera gothica quam nook panthamas paum charm!</p>

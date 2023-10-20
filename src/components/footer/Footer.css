@@ -1,4 +1,33 @@
 .footerContainer{
+    max-width: 100%;
+}
+
+.footerRow{
     max-width: 80%;
-    background-color: wheat;
+}
+
+.footerText{
+    font-size: small;
+    color: gray;
+    text-decoration: none;
+}
+
+.footerHeading{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.companyName{
+    color: burlywood;
+}
+.footerContainer{
+    padding: 1rem;
+}
+.footerRow{
+    margin: auto;
+}
+.horizontalLine-2{
+    opacity: .5;
+    border-bottom: .5px solid gray !important;
 }

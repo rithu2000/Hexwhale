@@ -1,0 +1,13 @@
+.navContainer {
+    max-width: 80%;
+    
+}
+.main-nav{ 
+    background-color: #f5f5f5;
+}
+.bg-body-tertiary{
+    background-color: #f5f5f5!important;
+}
+.faIcons{
+    padding-inline: 20px;
+}

@@ -1,13 +1,13 @@
 .blogHeading {
     font-size: larger;
     font-weight: 600;
-
 }
 
 .blogSubHeading {
     color: gray;
     font-size: small;
 }
+
 .blogName{
     color: burlywood;
 }
@@ -17,7 +17,7 @@
     font-size: small;
     width: 300px;
 }
+
 .blogContainer{
     max-width: 80%;
-    
 }

@@ -9,10 +9,10 @@ import WallLight from '../../assets/image-25.jpg'
 import CeilLight from '../../assets/image-26.jpg'
 import Bag from '../../assets/image-27.jpg'
 
-
 const Gallery = () => {
+
   return (
-    <div className='mainBox container mt-5'>
+    <div className='mainBox container'>
       <div className="row text-center">
         <div className='row mainHeading'>
           <div class="col-md-4 horizontalLine d-flex justify-content-between flex-wrap flex-md-nowrap pt-3 pb-2 mb-1 border-bottom"></div>
@@ -30,7 +30,7 @@ const Gallery = () => {
           <p className='discountPrice'>$96.00<span className='originalPrice mx-4'>$96.00</span></p>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-          <img src={FlowerPot} alt=""/>
+          <img src={FlowerPot} alt="" />
           <h2 className='productHeading mt-2'>wooden container bowl</h2>
           <p className='discountPrice'>$96.00<span className='originalPrice m-4'>$96.00</span></p>
         </div>
@@ -45,7 +45,7 @@ const Gallery = () => {
           <p className='discountPrice'>$96.00<span className='originalPrice m-4'>$96.00</span></p>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-          <img src={WoodenBowl} alt=""/>
+          <img src={WoodenBowl} alt="" />
           <h2 className='productHeading mt-2'>wooden container bowl</h2>
           <p className='discountPrice'>$96.00<span className='originalPrice m-4'>$96.00</span></p>
         </div>
@@ -60,7 +60,7 @@ const Gallery = () => {
           <p className='discountPrice'>$96.00<span className='originalPrice m-4'>$96.00</span></p>
         </div>
         <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-          <img src={Bag} alt=""/>
+          <img src={Bag} alt="" />
           <h2 className='productHeading mt-2'>wooden container bowl</h2>
           <p className='discountPrice'>$96.00<span className='originalPrice m-4'>$96.00</span></p>
         </div>

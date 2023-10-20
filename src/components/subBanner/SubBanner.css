@@ -1,15 +1,55 @@
-.bg-image {
-    background-image: url(); /* Replace 'your-image.jpg' with your image file */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    display: flex;
+.subBannerContainer{
+    max-width: 100%;
+}
+
+.subBannerRow{
     justify-content: center;
+}
+
+.subBannerLeft{
+    background-image: url(../../assets/image-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: 50vh;
+}
+
+.subBannerRight{
+    background-image: url(../../assets/image-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: 50vh;
+}
+
+.bannerPrice{
+    color: burlywood;
+}
+
+.subCategory{
+color: burlywood;
+font-size: small;
+}
+
+.subBannerHeading{
+font-size: medium;
+}
+
+.subContent{
+font-size: small;
+color: darkgray
+}
+.subBannerRight,.subBannerLeft{
+    max-width: 49%;
+}
+.sub-banner-row{
+    justify-content: space-between;
+
+}
+.subBannerContent{
     align-items: center;
-  }
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
-    padding: 20px;
-    border-radius: 10px;
-  }
+    padding: 5%;
+    max-width: 65%;
+}
